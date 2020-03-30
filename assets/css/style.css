@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(9, 30, 49);
+}
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: rgb(9, 30, 49);
+    background-color: whitesmoke;
+}
+
+/* header junk */
+header {
+    padding: 20px 35px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+    display: inline;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin : 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+/* end header junk */
+
+/* hero image */
+.container img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+/* end hero image */
+
+/* sections */
+section {
+    padding: 60px;
+}
+
+.section-title {
+    font-size: 26px;
+    text-decoration: underline;
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+
+.about-section {
+    padding: 30px;
+}
+
+.about-section img {
+    height: 25%;
+    width: 25%;
+    float: left;
+    padding: 0 40px;
+}
+
+.sections p {
+    font-size: 26px;
+    padding: 0 40px;
+    line-height: 1.8;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-section ul li {
+    display: inline;
+}
+
+.contact-section ul li a {
+    margin: 0 40px;
+    font-size: 22px;
+}
+
+.image-outer img {
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+    margin: 20px 50px;
+    filter: brightness(50%);
+    float: left;
+}
+
+.image-outer {
+    position: relative;
+    display: inline-block;
+}
+
+.project-names a {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.project-names {
+    display: inline;
+}
