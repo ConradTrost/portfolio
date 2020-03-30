@@ -38,7 +38,7 @@ header nav ul li {
 header nav ul li a {
     margin : 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 26px;
 }
 /* end header junk */
 
@@ -68,13 +68,17 @@ header nav ul li a {
 /* sections */
 section {
     padding: 60px;
+    text-align: center;
+    clear: both;
 }
 
 .section-title {
-    font-size: 26px;
-    text-decoration: underline;
-    text-align: center;
-    margin: 50px 0 20px 0;
+    font-size: 40px;
+    margin: 40px 0 40px 0;
+    border-bottom: 3px solid;
+    border-color: rgb(9, 30, 49);
+    padding: 0 100px 20px 100px;
+    display: inline-block;
 }
 
 .about-section {
@@ -82,8 +86,8 @@ section {
 }
 
 .about-section img {
-    height: 25%;
-    width: 25%;
+    height: 280px;
+    width: 310px;
     float: left;
     padding: 0 40px;
 }
@@ -109,12 +113,40 @@ section {
 }
 
 .image-outer img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+    margin: 20px 50px;
+    filter: brightness(50%);
+    float: left;
+}
+
+#runbud img {
+    height: 400px;
+    width: 400px;
+    border-radius: 5%;
+    margin: 20px 50px;
+    filter: brightness(50%);
+    float: left;
+}
+
+#runbud {
+    position: relative;
+    display: inline-block;
+}
+
+#horseion img {
     height: 300px;
     width: 300px;
     border-radius: 5%;
     margin: 20px 50px;
     filter: brightness(50%);
     float: left;
+}
+
+#horseion {
+    position: relative;
+    display: inline-block;
 }
 
 .image-outer {
@@ -130,8 +162,13 @@ section {
     transform: translate(-50%, -50%);
     color: whitesmoke;
     text-decoration: none;
+    text-align: center;
 }
 
 .project-names {
     display: inline;
+}
+
+.projects h2 {
+    margin-top: 60px;
 }
