@@ -67,7 +67,7 @@ header nav ul li a {
 
 /* sections */
 section {
-    padding: 60px;
+    padding: 30px;
     text-align: center;
     clear: both;
 }
@@ -131,20 +131,6 @@ section {
 }
 
 #runbud {
-    position: relative;
-    display: inline-block;
-}
-
-#horseion img {
-    height: 300px;
-    width: 300px;
-    border-radius: 5%;
-    margin: 20px 50px;
-    filter: brightness(50%);
-    float: left;
-}
-
-#horseion {
     position: relative;
     display: inline-block;
 }
